@@ -12,9 +12,12 @@
     <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
 
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/tachyons.css">
     <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400i,500i,700" rel="stylesheet">
+
+    <script defer src="/js/packs/light.js"></script>
+    <script defer src="/js/packs/brands.js"></script>
+    <script defer src="/js/fontawesome.js"></script>
 </head>
 
 <body>
@@ -23,32 +26,102 @@
         <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="wrapper mod_scale_fluid">
-        <header class="header">
-            <nav class="nav">
-                <div class="logo"></div>
-                <ul class="topnav">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main class="main">
-            <h1 class="hero">Something super compelling or question prompting.</h1>
-            <div class="testimonial-wrap">
-                <section class="testimonial"><i>"Joining Two Cents has changed my work and life dramatically."</i><br>
-                    <p class="author">Ben&nbsp;Stafford</p>
-                </section>
-                <section class="testimonial"><i>"Never had I imagined falling in love so quickly and so deeply."</i><br>
-                    <p class="author">Titus&nbsp;Smith</p>
-                </section>
-                <section class="testimonial"><i>"Becoming Camp Dad was the best decision I've never made."</i><br>
-                    <p class="author">Patrick&nbsp;Mahoney</p>
-                </section>
+    <!-- Twirly circle text not lookin so hot... <img src="/img/SVG/ffaf4.svg" width="20%" class="z-5 absolute anticlockwise center">-->
+    <header class="center cf mw8 ph3 ph5-ns ph0-l pv3 pv4-ns">
+        <a href="/">
+            <img src="/img/logo.svg" width="7%" class="db center">
+        </a>
+    </header>
+    <section class="center ph3 ph5-ns ph0-l mw8">
+        <script src="https://fast.wistia.com/embed/medias/add4p71xwj.jsonp" async></script>
+        <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+        <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+            <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                <div class="wistia_embed wistia_async_add4p71xwj videoFoam=true" style="height:100%;width:100%">&nbsp;</div>
             </div>
-        </main>
+        </div>
+    </section>
+    <section class="center ph3 ph5-ns ph0-l mw8 mt5">
+        <p class="f4 f2-m mv6 f1-l lh-copy lh-title-l canela tc">Two Cents is an intentional 10–12 person community focused on the betterment of oneself and one another.</p>
+    </section>
+    <div class="tc mv6">
+        <a class="f4 link grow br-pill ph4 pv3 mb3 dib white bg-black mh1" href="#start">Start A 2¢ Chapter</a>
+        <!--<a class="f4 link grow br-pill ba ph4 pv3 dib black mh1 mb3" href="about.html">Find Out More <i class="fal fa-eye"></i></a>--></div>
+    <div class="bg-black">
+        <section class="center ph3 ph5-ns ph0-l mw7 pv5 white cf">
+            <p class="f4 f2-m mv6 f1-l lh-copy lh-title-l canela tc">
+                Two Reasons for Two Cents</p>
+            <div class="fl w-50-ns pa2">
+                <p class="ttu f3 tc">Feedback</p>
+                <div class="fw2 f4">
+                    <p>The idea of asking 10 friends for feedback all at once was easier and less time consuming than asking them separately.</p>
+                    <p>Other Slack groups were too large and self-serving</p>
+                    <p>Dribbble wasn’t being used for feedback like it used to.</p>
+                    <p>There was a need for a small community of trusted eyes.</p>
+                </div>
+            </div>
+            <div class="fl w-50-ns pa2">
+                <p class="ttu f3 tc">Friendship</p>
+                <div class="fw2 f4">
+                    <p>
+                        Conferences and workshops are great, but sometimes you miss out on that community until the next year. We wanted to create a place where community was rooted in in-person experiences, but continued to grow during times that we were apart. In-house or freelance work can get lonely but knowing there are other people right there with you can offer comfort in sharing struggles and victories.</p>
+                </div>
+            </div>
+
+        </section>
     </div>
+
+    <section id="start" class="center ph3 ph5-ns ph0-l mw7 pv5">
+        <p class="f4 f2-m mv6 f1-l lh-copy lh-title-l canela tc">Start a Two Cents Chapter</p>
+        <p class="f2 canela">
+            Beginning Steps</p>
+        <ol class="f3 fw2">
+            <li><a class="link blue hover-purple" href="https://get.slack.help/hc/en-us/articles/206845317-Create-a-Slack-workspace" target="_blank">Set up a Slack Workspace</a> for your Two Cents Chapter</li>
+            <li>Recruit 10-12 members</li>
+            <li><a class="link blue hover-purple" href="https://get.slack.help/hc/en-us/articles/201402297-Create-a-channel" target="_blank">Create new channels as needed</a></li>
+            <li>Plan a retreat</li>
+        </ol>
+        <hr>
+        <p class="f2 canela">
+            Organizing Your Slack Channels</p>
+
+        <p class="f3 fw2">Our current mash of channels is as follows but may change if a new topic arises</p>
+        <ul class="f3 pb5 fw2">
+            <li><span class="fw3">#feedback</span> — post work in progress shots to be reviewed by fellow members</li>
+            <li><span class="fw3">#fire</span> — work we find by other artists, designers, illustrators</li>
+            <li><span class="fw3">#gaming</span> — video game news/discussions</li>
+            <li><span class="fw3">#general</span> — used for announcements, posting other members’ work to share, general discussion</li>
+            <li><span class="fw3">#jobs</span> — potential leads or job news</li>
+            <li><span class="fw3">#movies-and-tv</span> — movies and tv talk, if there is a movie you would like to talk about specifically with other people who have seen it, another channel is created to avoid spoilers</li>
+            <li><span class="fw3">#prayer</span> — safe place to share prayer requests and praises</li>
+            <li><span class="fw3">#random</span> — weird discussions, fun finds, not “general”</li>
+            <li><span class="fw3">#retreat</span> — discussions on details regarding future retreats</li>
+        </ul>
+        <hr>
+        <p class="f2 canela">Planning A Retreat</p>
+
+        <p class="f3 pb5 fw2">Google hangouts are great (and encouraged!) but planning a retreat to spend time with each other in person is the best. Plan trips around activities and locations all members can get into!</p>
+    </section>
+    <hr>
+    <section class="center ph3 ph5-ns ph0-l mw7 mv5">
+        <p class="f4 f2-m mv6 f1-l lh-copy lh-title-l canela tc">
+            FAQs</p>
+        <p class="f3">
+            Can I join the original Two Cents chapter?
+        </p>
+        <p class="f3 fw2">
+            No. And not because we’re mean or exclusive but because the magic of a small community is that it is capped at a certain number. We’ve learned that the smaller, the better. There are plenty of talented people out there waiting to be a part of your group.
+        </p>
+        <p class="f3">
+            Have a question about Two Cents that isn’t listed?
+        </p>
+        <p class="f3 pb5 fw2">
+            Feel free to reach out to Ben Stafford on Twitter and he’ll get back to you as soon as possible.</p>
+    </section>
+    <footer class="ph3 ph4-ns pv6 bg-black black tc">
+        <p class="canela tracked-mega f4 white">"For Friendship & Feedback"</p>
+        <p class="white fw2 tracked">© 2017 TWO CENTS</p>
+    </footer>
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script>
