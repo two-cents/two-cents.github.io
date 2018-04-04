@@ -18,7 +18,7 @@ html {
     line-height: 1.4;
     font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Quattrocento Sans', monospace;
     font-weight: 400;
 }
 
@@ -410,9 +410,6 @@ ul {
 }
 .canela {
     font-family: 'Quattrocento', serif;
-}
-.mono {
-    font-family: 'IBM Plex Mono', monospace;
 }
 .boldi {
     font-weight: 600;
